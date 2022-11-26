@@ -1,0 +1,42 @@
+<div class="ProductItem">
+  <div class="ProductItem__Wrapper">
+
+    {%- if settings.product_image_size == 'natural' or use_horizontal -%}
+      {%- assign use_natural_size = true -%}
+    {%- else -%}
+      {%- assign use_natural_size = false -%}
+    {%- endif -%}
+
+    <a href="{{ product_item.url }}" class="ProductItem__ImageWrapper{% if product_item.handle == product.handle %} active{% endif %}">
+
+      {%- assign max_width = product_item.featured_media.preview_image.width -%}
+      {%- assign media_aspect_ratio = product_item.featured_media.aspect_ratio | default: product_item.featured_media.preview_image.aspect_ratio -%}
+
+      <div class="AspectRatio AspectRatio--{% if use_natural_size %}withFallback{% else %}{{ settings.product_image_size }}{% endif %}" style="max-width: {{ max_width }}px; {% if use_natural_size %}padding-bottom: {{ 100.0 | divided_by: media_aspect_ratio }}%;{% endif %} --aspect-ratio: {{ media_aspect_ratio }}">
+
+        {%- capture supported_sizes -%}{%- render 'image-size', sizes: '200,400,600,700,800,900,1000,1200', image: product_item.featured_media -%}{%- endcapture -%}
+        {% if product_item.metafields.my_fields.thumb %} 
+          {%- assign image_url = product_item.metafields.my_fields.thumb -%}
+        {% else %}
+          {%- assign image_url = product_item.featured_media | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+        {% endif %}
+
+        <img class="ProductItem__Image Image--lazyLoad Image--fadeIn" data-src="{{ image_url }}" data-widths="[{{ supported_sizes }}]" data-sizes="auto" alt="{{ product_item.featured_media.alt | escape }}" data-media-id="{{ product_item.featured_media.id }}">
+        <span class="Image__Loader"></span>
+
+        <noscript>
+          <img class="ProductItem__Image" src="{{ product_item.featured_media| img_url: '600x' }}" alt="{{ product_item.featured_media.alt | escape }}">
+        </noscript>
+      </div>
+    </a>
+
+    <div class="ProductItem__Info {% unless use_horizontal %}ProductItem__Info--{{ settings.product_info_alignment }}{% endunless %}">
+
+      <h2 class="ProductItem__Title Heading">
+        <a href="{{ product_item.url }}">{{ product_item.metafields.my_fields.scent }}</a>
+      </h2>
+
+    </div>
+  </div>
+
+</div>

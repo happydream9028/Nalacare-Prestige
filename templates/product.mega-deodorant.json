@@ -1,0 +1,209 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "product_meta": {
+          "type": "product_meta",
+          "settings": {
+            "show_vendor": false,
+            "show_sku": false,
+            "show_product_rating": true,
+            "show_taxes_included": false
+          }
+        },
+        "d52a025d-59e8-495d-908a-c45d62ae587e": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.my_fields.short_description.value }}"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "position": "left",
+            "description": "",
+            "is_product": true
+          }
+        },
+        "variant_selector": {
+          "type": "variant_selector",
+          "settings": {
+            "selector_mode": "block",
+            "show_color_swatch": false,
+            "show_color_carousel": false,
+            "size_chart": ""
+          }
+        },
+        "f3c15c26-3dab-4c2f-a5c1-8747bc99e86f": {
+          "type": "product_selector",
+          "settings": {
+            "show_mobile": false,
+            "show_label": true,
+            "show_price_in_button": false,
+            "show_payment_button": false
+          }
+        },
+        "ea93b345-a7cc-4e54-ac58-e12cf2877325": {
+          "type": "collection",
+          "settings": {
+            "collection": "sensitive-skin",
+            "title": "",
+            "sub_title": "Free-from baking soda"
+          }
+        },
+        "a4d2b4c7-b248-4f4e-9d5c-f4d2e79479b8": {
+          "type": "collection",
+          "settings": {
+            "collection": "regular-strength",
+            "title": "",
+            "sub_title": ""
+          }
+        },
+        "511b28a4-eede-42cb-9ecc-6f6c4060eb5c": {
+          "type": "collection",
+          "settings": {
+            "collection": "extra-strength",
+            "title": "",
+            "sub_title": ""
+          }
+        },
+        "bc3ec044-93db-425f-aafe-b278805e2e92": {
+          "type": "collection",
+          "settings": {
+            "collection": "bundles",
+            "title": "",
+            "sub_title": ""
+          }
+        },
+        "6b69f296-13a4-4bf8-a287-ee47d520f5a6": {
+          "type": "product_selector",
+          "settings": {
+            "show_mobile": true,
+            "show_label": false,
+            "show_price_in_button": false,
+            "show_payment_button": false
+          }
+        },
+        "b28c05bb-1a34-439a-9048-4612f8a4d8cc": {
+          "type": "content",
+          "settings": {
+            "title": "Tab 1",
+            "content": "",
+            "page": "{{ product.metafields.my_fields.tab_1.value }}"
+          }
+        },
+        "c2e64ad1-2d1a-45c6-845d-c28f0b40d50c": {
+          "type": "content",
+          "settings": {
+            "title": "Tab 2",
+            "content": "",
+            "page": "{{ product.metafields.my_fields.tab_2.value }}"
+          }
+        },
+        "4cf2805d-48e4-41c6-b2c6-f89de06ec50b": {
+          "type": "features",
+          "disabled": true,
+          "settings": {
+            "title": "Features",
+            "icon1_svg": "shopify:\/\/shop_images\/paraben-free.png",
+            "icon1_txt": "1 stick lasts 3-6 months",
+            "icon2_svg": "shopify:\/\/shop_images\/paraben-free.png",
+            "icon2_txt": "Free-From Carcinogens, Aluminum, Parabens, Phtalates, 800+ Ingredients Banned",
+            "icon3_svg": "shopify:\/\/shop_images\/paraben-free.png",
+            "icon3_txt": "Over 90% Organic Ingredients",
+            "icon4_svg": "shopify:\/\/shop_images\/paraben-free.png",
+            "icon4_txt": "Cruelty-free"
+          }
+        },
+        "8ba3f1c8-e0c4-4e11-b4d3-e6b9197e3a12": {
+          "type": "content",
+          "settings": {
+            "title": "Tab 3",
+            "content": "",
+            "page": "{{ product.metafields.my_fields.tab_3.value }}"
+          }
+        },
+        "7a33fcde-0bb4-47fd-8351-aec9d39d1eec": {
+          "type": "content",
+          "settings": {
+            "title": "Tab 4",
+            "content": "",
+            "page": "{{ product.metafields.my_fields.tab_4.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "product_meta",
+        "d52a025d-59e8-495d-908a-c45d62ae587e",
+        "description",
+        "variant_selector",
+        "f3c15c26-3dab-4c2f-a5c1-8747bc99e86f",
+        "ea93b345-a7cc-4e54-ac58-e12cf2877325",
+        "a4d2b4c7-b248-4f4e-9d5c-f4d2e79479b8",
+        "511b28a4-eede-42cb-9ecc-6f6c4060eb5c",
+        "bc3ec044-93db-425f-aafe-b278805e2e92",
+        "6b69f296-13a4-4bf8-a287-ee47d520f5a6",
+        "b28c05bb-1a34-439a-9048-4612f8a4d8cc",
+        "c2e64ad1-2d1a-45c6-845d-c28f0b40d50c",
+        "4cf2805d-48e4-41c6-b2c6-f89de06ec50b",
+        "8ba3f1c8-e0c4-4e11-b4d3-e6b9197e3a12",
+        "7a33fcde-0bb4-47fd-8351-aec9d39d1eec"
+      ],
+      "settings": {
+        "image_size": "large",
+        "stack_images": false,
+        "show_thumbnails": false,
+        "enable_image_zoom": true,
+        "enable_video_looping": false
+      }
+    },
+    "1647886368ba8d8323": {
+      "type": "custom-liquid",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "liquid": "<!--Start Stamped.io Auto Installation--><div id=\"stamped-main-widget\" class=\"stamped-main-widget\" data-widget-style=\"standard\" data-product-id=\"{{ product.id }}\" data-name=\"{{ product.title | escape }}\" data-url=\"{{ shop.url }}{{ product.url }}\" data-image-url=\"{{ product.featured_image | product_img_url: \"large\" |replace: '?', '%3F' | replace: '&','%26'}}\" data-description=\"{{ product.description | escape }}\" data-product-sku=\"{{product.handle}}\" data-product-type=\"{{product.type}}\" data-offset=\"100\"><\/div><!--End Stamped.io Auto Installation-->"
+      }
+    },
+    "164788707776860425": {
+      "type": "text-with-image",
+      "settings": {
+        "subheading": "fresh & seasonal",
+        "title": "holiday scents are here",
+        "image": "shopify:\/\/shop_images\/Nala_Care_banner_desktop_3.jpg",
+        "image_position": "left",
+        "content": "",
+        "link_text": "shop the holiday collection",
+        "link_url": "shopify:\/\/collections\/holiday-deodorants",
+        "background": "#eaeaea",
+        "text_color": "#555759"
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "You may also like",
+        "show_product_info": true,
+        "show_vendor": false,
+        "show_color_swatch": false
+      }
+    },
+    "recently-viewed-products": {
+      "type": "recently-viewed-products",
+      "settings": {
+        "title": "Recently viewed",
+        "show_product_info": true,
+        "show_vendor": false,
+        "show_color_swatch": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1647886368ba8d8323",
+    "164788707776860425",
+    "product-recommendations",
+    "recently-viewed-products"
+  ]
+}

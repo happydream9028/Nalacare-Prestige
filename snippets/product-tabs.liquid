@@ -1,0 +1,157 @@
+{%- capture product_tabs -%}
+  {%- for block in section.blocks -%}
+    {%- case block.type -%}
+      {%- when 'content' -%}
+        {%- if block.settings.page != blank -%}
+          {%- assign title = block.settings.page.title -%}
+          {%- assign content = block.settings.page.content -%}
+        {%- else -%}
+          {%- assign title = block.settings.title -%}
+          {%- assign content = block.settings.content -%}
+        {%- endif -%}
+
+        {%- if title != blank and content != blank -%}
+          <div class="Collapsible Collapsible--large" {{ block.shopify_attributes }}>
+            <button class="Collapsible__Button Heading u-h6" data-action="toggle-collapsible" aria-expanded="false">
+              {{- title -}} <span class="Collapsible__Plus"></span>
+            </button>
+
+            <div class="Collapsible__Inner">
+              <div class="Collapsible__Content">
+                <div class="Rte">
+                  {{- content -}}
+                </div>
+              </div>
+            </div>
+          </div>
+        {%- endif -%}
+
+	  {%- when 'features' -%}	
+		{%- assign title = block.settings.title -%}
+
+        {%- if title != blank -%}
+          <div class="Collapsible Collapsible--large" {{ block.shopify_attributes }}>
+            <button class="Collapsible__Button Heading u-h6" data-action="toggle-collapsible" aria-expanded="false">
+              {{- title -}} <span class="Collapsible__Plus"></span>
+            </button>
+
+            <div class="Collapsible__Inner">
+              <div class="Collapsible__Content">
+                <div class="Product__Features">
+                  <div class="Product__Feature">
+                    <img src="{{ block.settings.icon1_svg | img_url: 'master' }}">
+                    <span>{{ block.settings.icon1_txt }}</span>
+                  </div>
+                  <div class="Product__Feature">
+                    <img src="{{ block.settings.icon1_svg | img_url: 'master' }}">
+                    <span>{{ block.settings.icon2_txt }}</span>
+                  </div>
+                  <div class="Product__Feature">
+                    <img src="{{ block.settings.icon1_svg | img_url: 'master' }}">
+                    <span>{{ block.settings.icon3_txt }}</span>
+                  </div>
+                  <div class="Product__Feature">
+                    <img src="{{ block.settings.icon1_svg | img_url: 'master' }}">
+                    <span>{{ block.settings.icon4_txt }}</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        {%- endif -%}
+
+      {%- when 'reviews' -%}
+        <div class="Collapsible Collapsible--large" {{ block.shopify_attributes }}>
+          <button class="Collapsible__Button Heading u-h6" data-action="toggle-collapsible" aria-expanded="false">
+            <span>{{ 'product.tabs.reviews' | t }} <span class="text--light">({{ product.metafields.reviews.rating_count.value | default: 0 }})</span></span>
+            <span class="Collapsible__Plus"></span>
+          </button>
+
+          <div class="Collapsible__Inner">
+            <div class="Collapsible__Content">
+              <div id="shopify-product-reviews" data-id="{{product.id}}">{{ product.metafields.spr.reviews }}</div>
+            </div>
+          </div>
+        </div>
+    {%- endcase -%}
+  {%- endfor -%}
+{%- endcapture -%}
+
+{% comment %}
+{%- capture product_tab -%}
+  <ul class='Product__Tab__Items'>
+  {% assign flag = true %}
+  {%- for block in section.blocks -%}
+    {%- case block.type -%}
+      {%- when 'content' or 'features' or 'benefits' or 'howto' -%}
+        <li {% if flag %}class='active'{% endif %} data-tab-id='tab{{ forloop.index}}'>{{ block.settings.title }}{% render 'icon' with 'plus' %}</li>
+    	{% assign flag = false %}
+    {%- endcase -%}
+  {%- endfor -%}
+  </ul>
+
+  {% assign flag = true %}
+  <div class='Product__Tab__Contents'>
+  {%- for block in section.blocks -%}
+    {%- case block.type -%}
+      {%- when 'content' -%}
+    	{%- if block.settings.page != blank -%}
+          {%- assign title = block.settings.page.title -%}
+          {%- assign content = block.settings.page.content -%}
+        {%- else -%}
+          {%- assign title = block.settings.title -%}
+          {%- assign content = block.settings.content -%}
+        {%- endif -%}
+        <div id='tab{{ forloop.index}}' class='Product__Tab__Content {% if flag %}active{% endif %}'>
+          {{- content -}}
+    	</div>
+        {% assign flag = false %}
+      {%- when 'benefits' or 'howto' -%}
+    	{%- assign content = block.settings.content -%}
+        <div id='tab{{ forloop.index}}' class='Product__Tab__Content {% if flag %}active{% endif %}'>
+          <p>{{ block.settings.title }}:</p>
+          {{- content -}}
+    	</div>
+        {% assign flag = false %}
+      {%- when 'features' -%}
+    	<div id='tab{{ forloop.index}}' class='Product__Tab__Content {% if flag %}active{% endif %}'>
+          <p>{{ block.settings.title }}</p>
+          <div class="Rtcae Product__Features">
+            <div class="Product__Feature">
+              {% if block.settings.icon1_svg %}
+              <img src="{{ block.settings.icon1_svg | img_url: 'master' }}">
+              {% endif %}
+              <span>{{ block.settings.icon1_txt }}</span>
+            </div>
+            <div class="Product__Feature">
+              {% if block.settings.icon1_svg %}
+              <img src="{{ block.settings.icon2_svg | img_url: 'master' }}">
+              {% endif %}
+              <span>{{ block.settings.icon2_txt }}</span>
+            </div>
+            <div class="Product__Feature">
+              {% if block.settings.icon1_svg %}
+              <img src="{{ block.settings.icon3_svg | img_url: 'master' }}">
+              {% endif %}
+              <span>{{ block.settings.icon3_txt }}</span>
+            </div>
+            <div class="Product__Feature">
+              {% if block.settings.icon1_svg %}
+              <img src="{{ block.settings.icon4_svg | img_url: 'master' }}">
+              {% endif %}
+              <span>{{ block.settings.icon4_txt }}</span>
+            </div>
+          </div>
+    	</div>
+    	{% assign flag = false %}
+    {%- endcase -%}
+  {%- endfor -%}
+  </div>
+{%- endcapture -%}
+{% endcomment %}
+
+{%- if product_tabs != blank -%}
+  <div class="Product__Tabs">
+    {{- product_tabs -}}
+  </div>
+{%- endif -%}

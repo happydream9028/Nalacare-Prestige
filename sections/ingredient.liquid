@@ -1,0 +1,52 @@
+{%- assign image_name = page.metafields.images.image  -%}
+{% assign image=images[image_name] %}
+
+<section class="Section Section--spacingNormal" data-section-id="{{ section.id }}" data-section-type="featured-product" data-section-settings='{{ section_settings }}'>
+  <div class="Container">
+      {% comment %} remove hidden-phone to hide section header on mobile {% endcomment %}
+      <header class="SectionHeader SectionHeader--center hidden-phone">
+        <h2 class="SectionHeader__Heading Heading u-h1">{{ page.title | escape }}</h2>
+      </header>
+
+    <div class="FeaturedProduct FeaturedProduct--center">
+        {%- comment -%}
+        --------------------------------------------------------------------------------------------------------------------
+        PRODUCT GALLERY
+        --------------------------------------------------------------------------------------------------------------------
+        {%- endcomment -%}
+
+        <a href="{{ page.url }}" class="FeaturedProduct__Gallery">
+          {%- capture supported_sizes -%}{%- render 'image-size', sizes: '200,300,400,600,700,800,900,1000', image: image -%}{%- endcapture -%}
+
+          {%- assign media_aspect_ratio = image.aspect_ratio | default: image.preview_image.aspect_ratio -%}
+          <div class="AspectRatio" style="max-width: {{ image.preview_image.width }}px; --aspect-ratio: {{ media_aspect_ratio }}">
+            {% assign image_url = image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' %}
+
+            <img class="Image--lazyLoad Image--fadeIn" data-src="{{ image_url }}" data-widths="[{{ supported_sizes }}]" data-sizes="auto" alt="{{ image.alt | escape }}">
+            <span class="Image__Loader"></span>
+
+            <noscript>
+              <img src="{{ image | img_url: '600x' }}" alt="{{ image.alt | escape }}">
+            </noscript>
+          </div>
+        </a>
+
+        {% comment %} Use this to get nice spacing even though its not really a 'product' {% endcomment %}
+        <div class="FeaturedProduct__Info">
+          {% comment %} Use this for font formatting {% endcomment %}
+          <div class="PageContent PageContent--narrow Rte">
+            {{ page.content }}
+          </div>
+        </div>
+        
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Ingredient",
+  "settings": [
+  ]
+}
+{% endschema %}

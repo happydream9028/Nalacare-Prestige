@@ -1,0 +1,30 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-contact",
+      "blocks": {
+        "32cd3aa1-3b6e-48ad-80cb-908196f8892b": {
+          "type": "text",
+          "settings": {
+            "title": "Subject",
+            "use_long_text": false,
+            "is_required": false
+          }
+        }
+      },
+      "block_order": [
+        "32cd3aa1-3b6e-48ad-80cb-908196f8892b"
+      ],
+      "settings": {
+        "form_title": "We would love to hear from you",
+        "title": "Contact",
+        "content": "<p>Media\/press inquiries? Click <a href=\"mailto:sayhello@nalacare.com?subject=Media%20Inquiry\">here<\/a>.<br\/><br\/>Wholesale inquiries? Reach out <a href=\"mailto:wholesale@nalacare.com?subject=Retailer%20Inquiry\">here<\/a>.<br\/><br\/>Customer question? Send <a href=\"mailto:customersupport@nalacare.com\">here<\/a>.<\/p><p>Nala Care Inc.<br\/>302 – 1155 Mainland Street ,<br\/>Vancouver, BC, V6B 5P2 Canada<\/p><p>(604) 564 - 6252<\/p>",
+        "background": "#fbf6f3",
+        "text_color": "#555759"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

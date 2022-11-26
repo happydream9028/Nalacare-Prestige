@@ -1,0 +1,92 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_large": false,
+        "show_title": true
+      }
+    },
+    "1649812333ef5aafdd": {
+      "type": "page-reviews-slider",
+      "blocks": {
+        "edf84879-ed10-492b-8bbc-72fced3c0aea": {
+          "type": "image",
+          "settings": {
+            "html": "https:\/\/cdn.shopify.com\/s\/files\/1\/0270\/6764\/6052\/files\/review-Kendra.mp4?v=1615656006",
+            "title": "Kendra reviews Lemon Myrtle Geranium"
+          }
+        },
+        "45b26e46-0352-40e9-b691-b313ec5a231b": {
+          "type": "image",
+          "settings": {
+            "html": "https:\/\/cdn.shopify.com\/s\/files\/1\/0270\/6764\/6052\/files\/review-Aliya.mp4?v=1615656009",
+            "title": "Aliya reviews the Detox, Lemon Myrtle Geranium, and Personalized Woodsy"
+          }
+        },
+        "7b7ddf95-9848-467a-b5c3-1b1a5201bf91": {
+          "type": "image",
+          "settings": {
+            "html": "https:\/\/cdn.shopify.com\/s\/files\/1\/0270\/6764\/6052\/files\/Alanna.mp4?v=1615843841",
+            "title": "Alanna reviews the Detox"
+          }
+        },
+        "4f13d63f-7c93-4ed6-acee-052d2d165f11": {
+          "type": "image",
+          "settings": {
+            "html": "https:\/\/cdn.shopify.com\/s\/files\/1\/0270\/6764\/6052\/files\/Sydney.mp4?v=1615843851",
+            "title": "Sydney reviews Limited Edition Winter Mint"
+          }
+        },
+        "0cca86bb-3edd-451d-baad-45bc1c50449d": {
+          "type": "image",
+          "settings": {
+            "html": "https:\/\/cdn.shopify.com\/s\/files\/1\/0270\/6764\/6052\/files\/Jalen.mp4?v=1615843851",
+            "title": "Jalen reviews the Detox, Sandalwood Bergamot, and Lemon Myrtle Geranium"
+          }
+        },
+        "bf0a4e53-6e93-478f-802e-9dc44e76bc6c": {
+          "type": "image",
+          "settings": {
+            "html": "https:\/\/cdn.shopify.com\/s\/files\/1\/0270\/6764\/6052\/files\/Kimberly.mp4?v=1615843853",
+            "title": "Kimberly reviews the Detox & Personalized Deodorant"
+          }
+        },
+        "ad91e3d4-30e3-4b7b-8768-e1bbaafada1a": {
+          "type": "image",
+          "settings": {
+            "html": "https:\/\/cdn.shopify.com\/s\/files\/1\/0270\/6764\/6052\/files\/Juan.mp4?v=1615856448",
+            "title": "Juan reviews Sandalwood Bergamot and Personalized Eucalyptus"
+          }
+        }
+      },
+      "block_order": [
+        "edf84879-ed10-492b-8bbc-72fced3c0aea",
+        "45b26e46-0352-40e9-b691-b313ec5a231b",
+        "7b7ddf95-9848-467a-b5c3-1b1a5201bf91",
+        "4f13d63f-7c93-4ed6-acee-052d2d165f11",
+        "0cca86bb-3edd-451d-baad-45bc1c50449d",
+        "bf0a4e53-6e93-478f-802e-9dc44e76bc6c",
+        "ad91e3d4-30e3-4b7b-8768-e1bbaafada1a"
+      ],
+      "settings": {
+        "autoplay": true,
+        "cycle_speed": 5,
+        "dot_color": "#ffffff"
+      }
+    },
+    "1649812716f9bc218d": {
+      "type": "custom-liquid",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "liquid": "<style>\n.stamped-widget-title{\ndisplay: none;\n}\n<\/style>\n<div style=\"text-align: center;font-family:Rotis SemiSans Std; margin-bottom: 25px\" id=\"stamped-reviews-widget\" data-widget-type=\"site-badge\" data-badge-type=\"minimal\" data-color-text=\"#313e49\" data-color-stars=\"#313e49\" data-star-size=\"23\" data-title-size=\"22\" data-title=\"Verified Reviews\"><\/div>\n{% for product in collections.all-products.products %}\n    <hr><br>\n    <h1 class=\"SectionHeader__Heading Heading u-h1\">{{ product.title }}<\/h1>\n    <span class=\"stamped-product-reviews-badge stamped-main-badge\" data-label-subtitle=\"\" data-id=\"{{ product.id }}\" data-product-sku=\"{{ product.handle }}\" data-product-title=\"{{product.title}}\" data-product-type=\"{{product.type}}\" style=\"display: inline-block;\"><\/span>\n    <div id=\"stamped-reviews-widget\" data-take=\"10\" data-product-image=\"true\" data-widget-type=\"full-page\" data-style-color-star=\"#313e49\" data-style-color-verified=\"#313e49\" data-style-color-text=\"#555759\" data-style-color-link=\"#555759\" data-product-ids=\"{{ product.id }}\"><\/div>\n    {% endfor %}"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1649812333ef5aafdd",
+    "1649812716f9bc218d"
+  ]
+}

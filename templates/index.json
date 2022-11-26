@@ -1,0 +1,363 @@
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "45dacfe7-d3a5-4b8f-a0b2-894fcf40ee30": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/NALACAREbySheenaZilinski-40.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/mobile_banner_personalized.png",
+            "apply_overlay": true,
+            "content_position": "bottomLeft",
+            "subheading": "once they're gone, they're gone",
+            "title": "save on citrus & woodsy deodorants",
+            "button_1_text": "shop personalized",
+            "button_1_link": "shopify:\/\/products\/personalized-nala-deodorant",
+            "button_2_text": "",
+            "button_2_link": ""
+          }
+        },
+        "75259acf-a4d5-4aa7-9839-83170cc0811e": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/nala_care_natural_deodorant_palo_santo_sensitive_skin.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/nala_care_natural_deodorant_cedarwood_palo_santo_extra_strength_mobile-low-res_d2a69797-779f-4e75-b64f-9c9f4bc64bd5.jpg",
+            "apply_overlay": true,
+            "content_position": "bottomRight",
+            "subheading": "the unisex deodorant of your dreams, in 3 strengths",
+            "title": "Cedarwood & Palo Santo",
+            "button_1_text": "shop new personalized",
+            "button_1_link": "https:\/\/nalacare.com\/collections\/custom\/products\/personalized-nala-deodorant?variant=40893151707236",
+            "button_2_text": "",
+            "button_2_link": ""
+          }
+        },
+        "6922efca-940c-48e9-8e03-c0c2d0809132": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Nala-Care-Breast-Oil-two-ladies-with-flowers-banner.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Nala-Care-Breast-Oil-two-ladies-with-flowers-low-res.jpg",
+            "apply_overlay": true,
+            "content_position": "bottomLeft",
+            "subheading": "Save 10% | Give 10%",
+            "title": "Know your breasts.",
+            "button_1_text": "Shop Breast Oil",
+            "button_1_link": "shopify:\/\/products\/breast-oil",
+            "button_2_text": "",
+            "button_2_link": ""
+          }
+        },
+        "a043eff7-5050-47b8-b23e-b9789094aa84": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1366_Banner_desktop.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/1370_Banner_mobile_2.jpg",
+            "apply_overlay": true,
+            "content_position": "bottomRight",
+            "subheading": "choose: smell like a christmas tree or a sugar cookie",
+            "title": "seasonal favorites have arrived",
+            "button_1_text": "shop the holiday collection",
+            "button_1_link": "shopify:\/\/collections\/holiday-deodorants",
+            "button_2_text": "",
+            "button_2_link": ""
+          }
+        },
+        "2ec140d5-ced2-42c5-aa38-0efc6b9effcb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/JordieH_NalaCare_NaturalDeodorant_FreeFromDeodorant.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/JordieH_NalaCare_NaturalDeodorant_FreeFromDeodorant.jpg",
+            "apply_overlay": true,
+            "content_position": "bottomLeft",
+            "subheading": "save up to 25% sitewide",
+            "title": "Our biggest sale of the year is here",
+            "button_1_text": "shop Black Friday",
+            "button_1_link": "shopify:\/\/collections\/bfcm-2022-collection",
+            "button_2_text": "",
+            "button_2_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "45dacfe7-d3a5-4b8f-a0b2-894fcf40ee30",
+        "75259acf-a4d5-4aa7-9839-83170cc0811e",
+        "6922efca-940c-48e9-8e03-c0c2d0809132",
+        "a043eff7-5050-47b8-b23e-b9789094aa84",
+        "2ec140d5-ced2-42c5-aa38-0efc6b9effcb"
+      ],
+      "settings": {
+        "show_fullscreen": true,
+        "show_arrow": true,
+        "autoplay": true,
+        "cycle_speed": 5,
+        "text_color": "#ffffff",
+        "button_color": "#363636",
+        "button_background": "#ffffff"
+      }
+    },
+    "1647881440afe9ea63": {
+      "type": "text-with-image",
+      "settings": {
+        "subheading": "",
+        "title": "Nala Care is a natural body care company providing efficacious and personalized products for your most sensitive areas.",
+        "image_position": "right",
+        "content": "",
+        "link_text": "",
+        "link_url": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "#555759"
+      }
+    },
+    "1647881499898754ec": {
+      "type": "collection-list",
+      "blocks": {
+        "5515f107-c939-45ea-a034-1989c949affe": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "summer-limited-edition-scents",
+            "image": "shopify:\/\/shop_images\/Nala-Care-Sophia-Hsin-Photography-151.jpg",
+            "image_alignment": "center center",
+            "content_position": "bottomLeft",
+            "subheading": "2 faves make a return",
+            "title": "summer scents are here",
+            "button_text": "shop summer",
+            "button_link": "",
+            "apply_overlay": true
+          }
+        },
+        "164788149944915af0-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Nala-Care-Free-From-Deodorant.jpg",
+            "image_alignment": "center center",
+            "content_position": "bottomLeft",
+            "subheading": "subtle & sophisticated scents",
+            "title": "free-from deodorants designed for you",
+            "button_text": "shop deodorants",
+            "button_link": "shopify:\/\/collections\/free-from-deodorant",
+            "apply_overlay": true
+          }
+        },
+        "164788149944915af0-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "custom",
+            "image": "shopify:\/\/shop_images\/Nala_Deodorant_Mobile_Banner-low-res.jpg",
+            "image_alignment": "center center",
+            "content_position": "bottomLeft",
+            "subheading": "shop deodorants by strength",
+            "title": "personalized for you",
+            "button_text": "shop personalized",
+            "button_link": "shopify:\/\/collections\/custom",
+            "apply_overlay": true
+          }
+        },
+        "164788149944915af0-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Nala-Care-Breast-Oil-low-res.jpg",
+            "image_alignment": "center center",
+            "content_position": "bottomLeft",
+            "subheading": "create a relationship with your breasts",
+            "title": "a dry oil for daily breast care",
+            "button_text": "shop breast oil",
+            "button_link": "shopify:\/\/products\/breast-oil",
+            "apply_overlay": true
+          }
+        }
+      },
+      "block_order": [
+        "5515f107-c939-45ea-a034-1989c949affe",
+        "164788149944915af0-0",
+        "164788149944915af0-2",
+        "164788149944915af0-1"
+      ],
+      "settings": {
+        "image_size": "small",
+        "add_spacing": true,
+        "expand_collection": true,
+        "stack_on_mobile": true,
+        "text_color": "#ffffff",
+        "button_color": "#363636"
+      }
+    },
+    "1647882904b2509767": {
+      "type": "featured-product",
+      "blocks": {
+        "16478829048c5867a9-0": {
+          "type": "product_meta",
+          "settings": {
+            "show_vendor": false,
+            "show_sku": false,
+            "show_product_rating": false,
+            "show_taxes_included": false
+          }
+        },
+        "16478829048c5867a9-2": {
+          "type": "variant_selector",
+          "settings": {
+            "selector_mode": "block",
+            "show_color_swatch": false,
+            "show_color_carousel": false,
+            "size_chart": ""
+          }
+        },
+        "16478829048c5867a9-3": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_price_in_button": false,
+            "show_payment_button": false
+          }
+        }
+      },
+      "block_order": [
+        "16478829048c5867a9-0",
+        "16478829048c5867a9-2",
+        "16478829048c5867a9-3"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "show_headings_on_mobile": true,
+        "product": "personalized-nala-deodorant"
+      }
+    },
+    "16478829695cc4eabf": {
+      "type": "testimonials",
+      "blocks": {
+        "1647882969a9504c44-0": {
+          "type": "testimonial",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/intotheglosslogo.png",
+            "quote": "<p>\"The peppermint and activated charcoal makes this amazing cooling effect when I sweat, even hours after application. Plus, it smells like a spa. I actually catch myself lifting an arm up to catch a refreshing whiff every once in a while. I don’t think I’ll ever use another deodorant.\"<\/p>"
+          }
+        },
+        "1647882969a9504c44-1": {
+          "type": "testimonial",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/new_beauty.png",
+            "quote": "<p>“It smells so, so good and the fact that it actually works without any of the funky stuff is a solid testimonial.”<\/p><p><\/p><p>Winner of NewBeauty Awards 2020, Best Natural Deodorant<\/p>"
+          }
+        },
+        "1647882969a9504c44-2": {
+          "type": "testimonial",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/byrdie.png",
+            "quote": "<p>\"Nala's <a href=\"https:\/\/nalacare.com\/product\/personalized-nala-deodorant\/\">Personalized Free-From Deodorant<\/a> is an aluminum-free deodorant that works and has earned a permanent spot in my beauty routine.\"<\/p>"
+          }
+        },
+        "4a13d248-1de5-4762-8ce1-ff31000d7ef1": {
+          "type": "testimonial",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Refinery29Logo.png",
+            "quote": "<p>“We put its strongest formula to the test — a sandalwood and bergamot blend that smells like an earthy perfume — and were impressed.”<\/p>"
+          }
+        },
+        "c3522346-44f1-4161-a15d-6ce4752fe97b": {
+          "type": "testimonial",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Copy_of_BIS19-gray.png",
+            "quote": "<p>\"This product stood out because of the ease and smooth application (no residue), design of packaging, and overall efficacy. As well as being an effective deodorant, it also nourishes, moisturizes, and repairs the underarm skin.\"<\/p>"
+          }
+        },
+        "d8c349be-6881-4271-808b-255fdb62bb0f": {
+          "type": "testimonial",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/mindbodygreenlogo.png",
+            "quote": "<p>“It glides on almost like silk without any coated-in-deodorant feeling. Its scent, though delicate, lasted through to my 6:30 p.m. boxing class. I think I have a new go-to now!\"<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1647882969a9504c44-0",
+        "1647882969a9504c44-1",
+        "1647882969a9504c44-2",
+        "4a13d248-1de5-4762-8ce1-ff31000d7ef1",
+        "c3522346-44f1-4161-a15d-6ce4752fe97b",
+        "d8c349be-6881-4271-808b-255fdb62bb0f"
+      ],
+      "settings": {
+        "autoplay": true,
+        "cycle_speed": 4,
+        "background": "#eaeaea",
+        "text_color": "#555759"
+      }
+    },
+    "1647882972da972ebf": {
+      "type": "featured-collections",
+      "blocks": {
+        "16478829729e63e47f-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "all-products",
+            "title": "Shop All Products",
+            "grid_items_count": 8,
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "16478829729e63e47f-0"
+      ],
+      "settings": {
+        "title": "There's a natural deodorant for you.",
+        "layout_mode": "grid",
+        "show_product_info": true,
+        "show_vendor": false,
+        "show_color_swatch": false,
+        "grid_mobile_items_per_row": "2",
+        "grid_desktop_items_per_row": 4
+      }
+    },
+    "164788544387849038": {
+      "type": "newsletter",
+      "settings": {
+        "section_size": "xsmall",
+        "bg_color": "#f7f7f7",
+        "text_color": "#555759",
+        "button_color": "#ffffff",
+        "subheading": "We like our inboxes like we like our deodorant: clean.",
+        "title": "Sign up to receive 10% off your first order",
+        "content": "",
+        "btn_text": "subscribe"
+      }
+    },
+    "16478832560f93da68": {
+      "type": "apps",
+      "blocks": {
+        "48bde0fa-06c1-41bb-b78f-06286eee8ebc": {
+          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "heading_size": 30,
+            "feed_width": 70,
+            "html_area": "<style>\n#insta-feed h2{\nfont-family: 'Rotis SemiSans Std';\n}\n<\/style>"
+          }
+        }
+      },
+      "block_order": [
+        "48bde0fa-06c1-41bb-b78f-06286eee8ebc"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "1647881440afe9ea63",
+    "1647881499898754ec",
+    "1647882904b2509767",
+    "16478829695cc4eabf",
+    "1647882972da972ebf",
+    "164788544387849038",
+    "16478832560f93da68"
+  ]
+}

@@ -1,0 +1,33 @@
+<div class="Grid__Cell 1/{{ section.settings.grid_mobile_items_per_row }}--phone 1/2--tablet 1/{{ section.settings.grid_desktop_items_per_row }}--lap-and-up">
+  <a href="{{ block.settings.button_link }}" {{ block.shopify_attributes }} class="{% if section.settings.expand_collection %}CollectionItem--expand{% endif %} Carousel__Cell {% if forloop.first %}is-selected{% endif %}" data-slide-index="{{ forloop.index0 }}">
+    {%- capture mobile_size -%}750x{% if collection_image.height >= 960 %}960{% else %}{{ collection_image.height }}{% endif %}{%- endcapture -%}
+    {%- assign image_crop = block.settings.image_alignment | split: ' ' | last -%}
+
+    {%- capture supported_sizes -%}{%- render 'image-size', sizes: '400,600,700,800,900,1000,1200', image: block.settings.image -%}{%- endcapture -%}
+
+    <div class="AspectRatio" style="max-width: {{ block.settings.image.width }}px; --aspect-ratio: {{ block.settings.image.aspect_ratio }}">
+      {%- assign image_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+      <img class="Image--lazyLoad Image--slide" data-src="{{ image_url }}" data-expand="-200" data-widths="[{{ supported_sizes }}]" data-sizes="auto" alt="{{ block.settings.image.alt | escape }}">
+
+      <noscript>
+        <img src="{{ block.settings.image | img_url: '800x' }}" alt="{{ block.settings.image.alt | escape }}">
+      </noscript>
+    </div>
+
+    <div class="{{ section.settings.text_align }}">
+      <header class="SectionHeader">
+        {%- if block.settings.subheading != blank -%}
+        <h3 class="SectionHeader__SubHeading Heading u-h6">{{ block.settings.subheading | escape }}</h3>
+        {%- endif -%}
+
+        <h2 class="ProductItem__Title Heading">{{ block.settings.title | default: collection.title | escape }}</h2>
+
+        <div class="SectionHeader__ButtonWrapper">
+          {%- if block.settings.button_text != blank -%}
+          <span class="CollectionItem__Link Button">{{ block.settings.button_text | escape }}</span>
+          {%- endif -%}
+        </div>
+      </header>
+    </div>
+  </a>
+</div>

@@ -1,0 +1,41 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-blog",
+      "settings": {
+        "show_rss": false,
+        "show_tags": true,
+        "show_featured_article": true,
+        "show_category": true
+      }
+    },
+    "shop-now": {
+      "type": "shop-now",
+      "disabled": true,
+      "blocks": {
+        "quote": {
+          "type": "quote",
+          "settings": {
+            "content": "<p>You can use this element to add a quote, content...<\/p>",
+            "author": ""
+          }
+        }
+      },
+      "block_order": [
+        "quote"
+      ],
+      "settings": {
+        "title": "Shop now",
+        "collection": "",
+        "grid_items_count": 6,
+        "show_product_info": true,
+        "show_vendor": false,
+        "show_color_swatch": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "shop-now"
+  ]
+}

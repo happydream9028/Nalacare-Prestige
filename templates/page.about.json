@@ -1,0 +1,90 @@
+{
+  "sections": {
+    "1648164746d6984f26": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "section_size": "large",
+        "image": "shopify:\/\/shop_images\/Ada_Mila_Nalacare_about-768x512.jpg",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30,
+        "subheading": "",
+        "title": "About Us",
+        "content": ""
+      }
+    },
+    "1648165893fb67eae4": {
+      "type": "richtext",
+      "settings": {
+        "subheading": "",
+        "title": "The Origins of Nala",
+        "content": "<p>In 2013, we lost a vital member of our family to cancer.<br\/><br\/>Alan – father, husband, friend, and mentor – whose energy was contagious and had a tendency towards larger than life ideas – was claimed by stage 4 non-small cell lung cancer. It felt too cruel and it definitely felt too soon to lose someone deserving of so much more life.<br\/><br\/>Deep loss inspired deeper inquiry, and as we waded through the realities of health and wellbeing, Nala grew from an idea into a necessity. We became incapable of ignoring an issue that rattled us deep within – a value we carry forth into what Nala stands for today.<\/p><p>Leveraging our backgrounds in biotech engineering and technology, our goals are twofold:<\/p><p>1. Change the way we, as a society, view health & self care by providing high quality products free from negative side effects.<\/p><p>2. End the meaningless suffering that comes from losing loved ones too soon.<\/p>",
+        "html": "",
+        "link_text": "",
+        "link_url": "",
+        "section_width": "narrow",
+        "text_align": "Left",
+        "background": "#ffffff",
+        "text_color": "#373737"
+      }
+    },
+    "16481664757814dea1": {
+      "type": "text-with-image",
+      "settings": {
+        "subheading": "",
+        "title": "<i>\"At Nala, we want you to care for yourself in a way that keeps you around for those closest to you for a long, long time to come\"<\/i>",
+        "image": "shopify:\/\/shop_images\/ada_nala.jpg",
+        "image_position": "left",
+        "content": "<p>- Ada Juristovski<\/p>",
+        "link_text": "",
+        "link_url": "",
+        "background": "#f6f6f6",
+        "text_color": "#474747"
+      }
+    },
+    "16481665725f1fd2c3": {
+      "type": "richtext",
+      "settings": {
+        "subheading": "",
+        "title": "Free-from is our transparent set of standards and promise to you.",
+        "content": "<p>Nala is a free-from skincare line that provides high quality, efficacious products, while encouraging deep self care. Free-from means Nala products will always be free from the worst offenders in the cosmetic world. This is our promise to you. At the most literal level, all our products are absent of the laundry list of toxic ingredients found in conventional cosmetics. When you choose a Nala product, you can be certain you’re choosing a solution that will not damage your health. Beyond the literal, our free-from label is aspirational. It puts high-quality ingredients at the forefront, and reminds us that our deepest commitment is to create something free from the negativity and pitfalls of the current beauty industry.<\/p>",
+        "html": "<ul>\n<li>Aluminum: changes your estrogen receptors; linked to liver, kidney and brain issues<\/li>\n<li>parabens: mimic estrogen in the body; cause cancer<\/li>\n<li>propylene glycol: considered a neurotoxin; known to cause liver and kidney damage<\/li>\n<li>carcinogens: substances that can lead to cancer<\/li>\n<li>phthalates: interfere with, mimic or block hormones<\/li>\n<li>cruelty: None of our products will ever be tested on animals.<\/li>\n<\/ul>",
+        "link_text": "",
+        "link_url": "",
+        "section_width": "narrow",
+        "text_align": "Left",
+        "background": "#ffffff",
+        "text_color": "#373737"
+      }
+    },
+    "1648166927477b9833": {
+      "type": "text-with-image",
+      "settings": {
+        "subheading": "",
+        "title": "<i>\"We believe that when you’re free from the shame, anxiety, and pressure that too often accompany the concept of beauty, you have the freedom to truly care for yourself\"<\/i>",
+        "image": "shopify:\/\/shop_images\/mila_about_us.jpg",
+        "image_position": "right",
+        "content": "<p>- Radmila Juristovski-Bosnic<\/p>",
+        "link_text": "",
+        "link_url": "",
+        "background": "#f6f6f6",
+        "text_color": "#474747"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_large": false
+      }
+    }
+  },
+  "order": [
+    "1648164746d6984f26",
+    "1648165893fb67eae4",
+    "16481664757814dea1",
+    "16481665725f1fd2c3",
+    "1648166927477b9833",
+    "main"
+  ]
+}

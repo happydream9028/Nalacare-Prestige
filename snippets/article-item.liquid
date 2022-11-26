@@ -1,0 +1,51 @@
+{% if blog.handle == 'press' %}
+  {%- if article.excerpt contains "http"  -%}
+    {% assign article_link = article.excerpt %}
+    {% assign link_target = "_blank" %}
+  {% elsif article.content contains "http" %}  		
+    {% assign article_link = article.content %}
+    {% assign link_target = "_blank" %}
+  {% elsif article.excerpt == blank and article.content == blank %}  	
+    {% assign article_link = article.image.src | img_url: "400x" %}
+    {% assign link_target = "_blank" %}
+  {% endif %}
+{% else %}
+  {% assign article_link = article.url %}  	
+  {% assign link_target = "_self" %}
+{% endif %}
+
+<article class="ArticleItem" {% if block %}{{ block.shopify_attributes }}{% endif %}>
+  {%- if article.image != blank -%}
+    {%- capture supported_sizes -%}{%- render 'image-size', sizes: '200,400,600,700,800,900,1000,1200', image: article.image -%}{%- endcapture -%}
+    {%- assign image_url = article.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+
+    <a class="ArticleItem__ImageWrapper AspectRatio AspectRatio--withFallback" style="background: url({{ article.image | img_url: '1x1', format: 'jpg' }}); padding-bottom: 58%; --aspect-ratio: 1.7" href="{{ article_link }}" target="{{ link_target }}">
+      <img class="ArticleItem__Image Image--lazyLoad Image--fadeIn"
+           data-src="{{ image_url }}"
+           data-widths="[{{ supported_sizes }}]"
+           data-sizes="auto"
+           alt="{{ article.image.alt | escape }}">
+
+      <noscript>
+        <img class="ArticleItem__Image" src="{{ article.image | img_url: '600x' }}" alt="{{ article.image.alt | escape }}">
+      </noscript>
+    </a>
+  {%- endif -%}
+
+  <div class="ArticleItem__Content">
+    {%- if section.settings.show_category -%}
+      <span class="ArticleItem__Category Heading u-h6 Text--subdued">{{ article.tags.first }}</span>
+    {%- endif -%}
+
+    <h2 class="ArticleItem__Title Heading u-h2">
+      <a href="{{ article.url }}">{{ article.title }}</a>
+    </h2>
+
+    {%- unless template.name == 'article' -%}
+      {% unless blog.handle == 'press' %}
+      <p class="ArticleItem__Excerpt">{{ article.excerpt_or_content | strip_html | truncate: 150 }}</p>
+      {% endunless %}
+      <a href="{{ article_link }}" target="{{ link_target }}" class="ArticleItem__Link Link Link--underline">{{ 'blog.article.read_more' | t }}</a>
+    {%- endunless -%}
+  </div>
+</article>

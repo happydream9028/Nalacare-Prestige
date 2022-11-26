@@ -1,0 +1,19 @@
+{% layout none %}
+{% paginate collection.products by 50 %}
+{
+  "products": [
+    {% for product in collection.products %}
+    {
+      "title": "{{ product.title }}",
+      "handle": "{{ product.handle }}",
+      "id": "{{ product.id }}",
+      "type": "{{ product.type }}",
+      "featured_image": "{{ product.featured_image | img_url: 'master' }}",
+      "secondary_image": "{{ product.images[1] | img_url: 'master' }}",
+      "price": "{{ product.price | money_with_currency }}",
+      "url": "{{ product.url }}"
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]
+}
+{% endpaginate %}

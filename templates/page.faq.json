@@ -1,0 +1,148 @@
+{
+  "sections": {
+    "16481422163fa56333": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "section_size": "small",
+        "image": "shopify:\/\/shop_images\/faq-banner.png",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 11,
+        "subheading": "",
+        "title": "FAQ",
+        "content": ""
+      }
+    },
+    "main": {
+      "type": "main-faq",
+      "blocks": {
+        "8c39070e-82b2-4a7f-a3b7-329838e8fe6b": {
+          "type": "separator",
+          "settings": {
+            "title": "Our Products"
+          }
+        },
+        "8ea57f2b-5536-46e9-b2ad-9ee53ec2d9d0": {
+          "type": "question",
+          "settings": {
+            "title": "Which Nala is right for me?",
+            "answer": "<p>For a full breakdown of each deodorant visit our guide on <a href=\"https:\/\/nalacare.myshopify.com\/blogs\/journal\/which-nala-is-right-for-me\" target=\"_self\">”Which Nala is right for me?”<\/a> All our deodorants are unisex, safe for all ages, and free-from aluminum, known carcinogens, and toxins. Each formula is unique, as we believe skincare isn’t “one size fits all”:<\/p><p>- <a href=\"https:\/\/nalacare.myshopify.com\/collections\/free-from-deodorant\/products\/free-from-deodorant-sandalwood-bergamot\" target=\"_self\">Sandalwood-Bergamot<\/a>: Our strongest formula with a gentle woodsy smell. Ideal for heavy sweaters and a top seller among men. Use as a daily deodorant or on occasions when you’ll be needing a bit more protection.<\/p><p>- <a href=\"https:\/\/nalacare.myshopify.com\/collections\/free-from-deodorant\/products\/free-from-deodorant-lemon-myrtle-geranium\" target=\"_self\">Lemon-Myrtle Geranium<\/a>: Light floral\/lemon smell. More gentle formula than Sandalwood-Bergamot, excellent everyday deodorant.<\/p><p>- <a href=\"https:\/\/nalacare.myshopify.com\/collections\/free-from-deodorant\/products\/free-from-deodorant-detox-peppermint-charcoal\" target=\"_self\">Peppermint-Charcoal Detox Deodorant<\/a>: Our most gentle formula and completely baking soda free. Recommended as a transition deodorant for those new to free-from deodorants, but also as great everyday deodorant. Use alone, while detoxing, or in conjunction with one of the other two.<\/p><p>You can also create your own <a href=\"https:\/\/nalacare.myshopify.com\/products\/personalized-nala-deodorant\" target=\"_self\">Personalized Deodorant<\/a> where you can customize by scent and strength (Sensitive Skin, Regular Strength, Extra Strength).<\/p>"
+          }
+        },
+        "a5e045b0-6f21-4704-be4e-88f9fd8f3535": {
+          "type": "question",
+          "settings": {
+            "title": "I’m new to free-from deodorant, where do I start?",
+            "answer": "<p>For best results, start with the Peppermint-Charcoal Detox Deodorant for 4 weeks to aid in your transition to a free-from deodorant.<br\/><br\/>Apply daily and nightly. Applying before sleep will help expedite the detox process as well as will leave you waking up feeling cool and refreshed.<br\/><br\/>For all Nala deodorants, 2 swipes will do. No need to overapply.<\/p>"
+          }
+        },
+        "fb88a37a-9f5a-4d0d-8a64-19d5c5d96b86": {
+          "type": "question",
+          "settings": {
+            "title": "Will the charcoal stain my shirts?",
+            "answer": "<p>All Nala deodorants go on clear. The trick is to avoid overapplication. Two swipes (once up and down) will do just fine! This will also help your deodorant last longer.<br\/><br\/>If you do overapply and find yourself with traces on your clothing, spot-treat with warm water and soap before putting into your regular wash cycle.<\/p>"
+          }
+        },
+        "489c5f7e-0c38-427b-a5c0-6c188bc320d3": {
+          "type": "question",
+          "settings": {
+            "title": "Is Nala safe during pregnancy\/during breastfeeding?",
+            "answer": "<p>Yes!<br\/><br\/>Nala deodorants are free from aluminum, known carcinogens, parabens, phthalates, and propylene glycol, making them a safe choice during pregnancy and breastfeeding. We encourage mothers who are conscious and curious about aluminum and its potential effects to consider switching to a natural deodorant as a great preventative and safe step in your (and your baby’s) self-care. Read more about our take on Breastfeeding & Antiperspirant here.<br\/><br\/>A note on essential oils:<\/p><p>- Lavender is sometimes listed as an essential oil that is not recommended during pregnancy. Specifically, this oil is Lavandula Latofolia, or Spanish lavender. We do not use Spanish lavender in Nala products.We do use Lavandula Anustifolia (English lavender) in our Peppermint & Charcoal Detox. The difference between these two is the much higher content (over 10%) of 1,8 cineole and camphor in Spanish lavender, which are excellent for respiratory issues, but not recommended for pregnant women and infants. English lavender has virtually no camphor (only 0.2%) and no 1,8 cineole. This is verified through quality testing and certification by our supplier, and our own rigorous quality standards.<\/p><p>- Peppermint is often used to relieve symptoms of nausea, indigestion, and fatigue - common side effects of pregnancy. Consumed in high quantities some studies suggest a link to a decrease in milk supply1. Nala uses very low concentrations (&lt; 0.5%) of <a href=\"https:\/\/nalacare.myshopify.com\/pages\/organic-peppermint-oils\" target=\"_self\">organic peppermint essential oils<\/a>in our Peppermint-Charcoal Detox Deodorant and is safe to use during pregnancy, breastfeeding, and post-partum.<\/p><p>If you have specific questions regarding ingredients, please contact us at sayhello@nalacare.com.<br\/><br\/>1. Walls, Donna. 2009. Herbs & Natural Therapies for Pregnancy, Birth, and Breastfeeding <a href=\"https:\/\/www.sweetpeabirths.com\/upload\/Herbs%20and%20natural%20therapies%20for%20pregnancy,%20birth,%20and%20breastfeeding.pdf\">https:\/\/www.sweetpeabirths.com\/upload\/Herbs%20and%20natural%20therapies%20for%20pregnancy,%20birth,%20and%20breastfeeding.pdf<\/a><\/p>"
+          }
+        },
+        "44643677-5e29-466f-848a-4ebca10584b4": {
+          "type": "question",
+          "settings": {
+            "title": "What is the shelf life of Nala deodorants?",
+            "answer": "<p>After opening, Nala deodorants perform best if used within six months. With daily use, one tube should last 3-6 months.<\/p>"
+          }
+        },
+        "063d142a-6f55-4baf-97ed-9205b84cb3a8": {
+          "type": "question",
+          "settings": {
+            "title": "What to do if I experience a rash or redness?",
+            "answer": "<p>Experiencing a temporary rash can be normal in making the switch to natural deodorant. It is typically caused by the products of baking soda reacting with naturally occurring compounds in sweat, and typically subsides within a few days.<br\/><br\/>If you are experiencing a rash, take a break from your Nala deodorant for a few days or until the rash clears, then resume with a gentler solution, like our<a href=\"https:\/\/nalacare.myshopify.com\/collections\/free-from-deodorant\/products\/free-from-deodorant-detox-peppermint-charcoal\" target=\"_self\">Peppermint & Charcoal Detox<\/a>or any Sensitive Skin option in our<a href=\"https:\/\/nalacare.myshopify.com\/products\/personalized-nala-deodorant\" target=\"_self\">Personalized Deodorants<\/a>.<br\/><br\/>The Peppermint & Charcoal as well as our Sensitive Skin formulations are our most sensitive formula and contain no baking soda. The charcoal also supports the 'flushing out' phase by helping your body rid itself of toxins faster, due to its high absorbency properties. This can make your daytime deodorant more effective.<br\/><br\/>Additionally, you may be sensitive to specific essential oils, or baking soda in general. If this is the case, consider using just the Peppermint & Charcoal Detox every day.<br\/><br\/>If you’ve given your pits a break and are still experiencing rashes, get in touch at<a href=\"mailto:sayhello@nalacare.com\" target=\"_self\">sayhello@nalacare.com<\/a>and we’ll guide you through this process, as well as other options for free-from deodorant.<br\/><br\/>For those that want to dig in on the science:<br\/><br\/>Baking soda, an ingredient in Sandalwood and Lemon Myrtle deodorants, reacts with the fatty acids and other odour-causing compounds present in our sweat, and neutralizes them by turning them into odourless salts. During the detoxification phase especially, or just in the switch to natural deodorant, you may experience some redness as these salts are produced in reaction with the baking soda. The good news is that your body will self-regulate its sweat production after a few weeks, and once your pits are flushed of toxins, this reaction usually disappears.<br\/><br\/>For more on the science on sweat, read our Journal post<a href=\"https:\/\/nalacare.myshopify.com\/blogs\/journal\/an-ode-to-sweat\">here<\/a>.<\/p>"
+          }
+        },
+        "f258a8b0-8c62-4b5b-87dd-75cdb0b09d46": {
+          "type": "question",
+          "settings": {
+            "title": "What can I expect when switching to a free-from deodorant?",
+            "answer": "<p><strong>Step 1: Detox<br\/><\/strong>What’s happening: Your pores are clearing\/unclogging, and releasing toxins that have accumulated in your armpit.<br\/>What to expect: Your body may sweat more than usual, and it’s even normal to smell a bit during this stage.<br\/>How long it lasts: 1-2 weeks<br\/>How to ride it out: Drink lots of water to assist with flushing out the toxins. Use the Detox deodorant at night to help remove toxins while you sleep, or right before you work out when you’ll be sweating a lot anyway.<br\/><br\/><strong>Step 2: Adjustment<\/strong><br\/>What’s happening: Your armpit has shed ~50% of the toxic particles stored there, and is starting to function more naturally again.<br\/>What to expect: Sweating and odour will start to subside (yay!).<br\/>How long it lasts: 1-2 weeks. This is just the beginning of the regulation process, so keep using the Detox deodorant every night, while using a free-from deodorant during the day.<br\/><br\/><strong>Step 3: Acclimatization<\/strong><br\/>What’s happening: Your armpits are well on their way to being free from toxins, and your body is acclimating to a new pattern of self-regulating sweat.<br\/>What to expect: Odour will subside because the worst offenders (the conglomerated toxins that have been accumulating in your lymph nodes) will have been flushed out. You will sweat less – but you will still sweat. Sweat is a daily detoxification process that our body naturally regulates.<br\/>How long it lasts: Ideally, this is a lifelong stage,  as long as you don’t introduce the top offenders back into your pits.<br\/>At this point, you can continue to use your detox deodorant until it runs out or simply use your free-from deodorant during the day. Some people find they don’t need the strength of baking soda in their everyday deodorant, and may continue using the Detox deodorant daily.<\/p>"
+          }
+        },
+        "e4670313-a9e0-4245-ac68-2a6167659d8e": {
+          "type": "question",
+          "settings": {
+            "title": "Will I smell when switching to a free-from deodorant?",
+            "answer": "<p>In the early stages of switching to a free-from deodorant, it can be normal to smell a little more than usual. Read up on what to expect when switching to a natural deodorant, specifically the detoxification phase.<br\/><br\/>Once you are out of the detoxification stage and your armpits are acclimated to a natural sweating cycle, you may notice fluctuations in your natural “aroma”. While we’re all about embracing our own unique fragrances, you’ll be the best judge of whether you seem occasionally off-brand.<br\/><br\/>Consider the following factors & how to mitigate them:<\/p><p>- Refined\/processed foods and alcohol - Refined foods, processed foods, alcohol, and caffeine are toxins. Higher-than-normal consumption (e.g. holidays, a big night out, etc) may need to be flushed out via lots of water and sweat-inducing activities.<\/p><p>- Low hydration levels - Adequate water consumption is key to supporting your body’s natural daily detoxification and self-cooling systems. Aim to drink at least 8 cups of water a day.<\/p><p>- Stress - Your body produces two types of sweat: that from your eccrine glands, aiding in regulation of body temperature (most of your sweat glands are eccrine glands), and stinkier, “stress sweat”, which is limited to your apocrine glands. Know that it’s completely normal for you to smell different if you’ve experienced mental or emotional stress lately.<\/p><p>- Not sweating - If you haven’t sweat in a while, consider a sweaty workout or a sauna session. Your body\/sweating may need some extra help in winter months.<\/p><p>- You may need a stronger deodorant - From most gentle to strongest the our deodorants go from Peppermint-Charcoal Detox, Lemon Myrtle & Geranium, Sandalwood & Bergamot. Find our full guide<a href=\"https:\/\/nalacare.myshopify.com\/blogs\/journal\/which-nala-is-right-for-me\">here<\/a>.<\/p>"
+          }
+        },
+        "ec4cafbc-2848-4c63-b68b-64d3f82ea71e": {
+          "type": "question",
+          "settings": {
+            "title": "Are your deodorants environmentally friendly?",
+            "answer": "<p>All our products are made of 100% natural or naturally derived ingredients, and organic whenever available. We use ingredients derived by green technology such as botanical extract derived by supercritical fluid extraction (carbon dioxide extraction). The exterior paper tube and the inner mechanism are 100% recyclable. The plastic containers are accepted through any specialty recycling depot. We are actively looking at upgrading our packaging to be biodegradable while meeting our standards for quality and safety - this includes for all existing and future products. We continue to explore new options in manufacturing as they are brought to market.<\/p>"
+          }
+        },
+        "c89e7d96-e081-4881-a845-28cfb8849c97": {
+          "type": "separator",
+          "settings": {
+            "title": "Shipping & Returns"
+          }
+        },
+        "54688357-50dc-4655-b6e9-f08224b7d920": {
+          "type": "question",
+          "settings": {
+            "title": "Where do you ship to?",
+            "answer": "<p>Shipping is available across the United States and Canada. <\/p>"
+          }
+        },
+        "78a8621e-bd19-4fbb-9ee5-e4d5909b643a": {
+          "type": "question",
+          "settings": {
+            "title": "How much does shipping cost?",
+            "answer": "<p>Shipping is free for all orders over $60 before tax. For orders under $60, shipping is $9.90.<\/p>"
+          }
+        },
+        "1bb5dfdb-3440-4e69-bf17-7d0bb5102b19": {
+          "type": "question",
+          "settings": {
+            "title": "What is your return policy?",
+            "answer": "<p>We have a 'no return' policy for online purchases.<br\/><br\/>We want you to love Nala as much as we do, so we encourage you to read up on our Journal on ‘<a href=\"https:\/\/nalacare.com\/blogs\/journal\/which-nala-is-right-for-me\" target=\"_self\">which Nala is right for me<\/a>’ before you purchase.<br\/><br\/>If you’re new to natural deodorant, we encourage you to follow our <a href=\"https:\/\/nalacare.com\/blogs\/journal\/the-nala-guide-to-detox-deodorant\" target=\"_self\">Detox Guide<\/a>, as you may experience some temporary reactions as your body adjusts. If you suspect you may have a sensitivity to baking soda, we recommend you start with our most baking-soda free-deodorants (Peppermint & Charcoal, or any Personalized deodorant in 'gentle strength').<br\/><br\/>We’re more than happy to answer any additional questions <a href=\"mailto:sayhello@nalacare.com\" target=\"_blank\">via email <\/a>and to work with you on choosing the best fit for you. We believe deodorant is personal to each individual.<br\/><br\/>If you’re curious about trying scents and textures before buying, feel free to <a href=\"mailto:sayhello@nalacare.com\">send us an e-mail <\/a>inquiring about retailers in your area. <\/p>"
+          }
+        },
+        "a93156a8-7161-4147-bd8f-ebcf81209aff": {
+          "type": "question",
+          "settings": {
+            "title": "How long will it take for my order to ship?",
+            "answer": "<p>All orders ship within 1-3 business days. You will receive a tracking number and confirmation once shipped. In case you do not receive a tracking number please reach out to <a href=\"mailto:customersupport@nalacare.com\" title=\"mailto:customersupport@nalacare.com\">customersupport@nalacare.com<\/a>.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "8c39070e-82b2-4a7f-a3b7-329838e8fe6b",
+        "8ea57f2b-5536-46e9-b2ad-9ee53ec2d9d0",
+        "a5e045b0-6f21-4704-be4e-88f9fd8f3535",
+        "fb88a37a-9f5a-4d0d-8a64-19d5c5d96b86",
+        "489c5f7e-0c38-427b-a5c0-6c188bc320d3",
+        "44643677-5e29-466f-848a-4ebca10584b4",
+        "063d142a-6f55-4baf-97ed-9205b84cb3a8",
+        "f258a8b0-8c62-4b5b-87dd-75cdb0b09d46",
+        "e4670313-a9e0-4245-ac68-2a6167659d8e",
+        "ec4cafbc-2848-4c63-b68b-64d3f82ea71e",
+        "c89e7d96-e081-4881-a845-28cfb8849c97",
+        "54688357-50dc-4655-b6e9-f08224b7d920",
+        "78a8621e-bd19-4fbb-9ee5-e4d5909b643a",
+        "1bb5dfdb-3440-4e69-bf17-7d0bb5102b19",
+        "a93156a8-7161-4147-bd8f-ebcf81209aff"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "16481422163fa56333",
+    "main"
+  ]
+}

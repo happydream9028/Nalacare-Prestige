@@ -1,0 +1,140 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "product_meta": {
+          "type": "product_meta",
+          "settings": {
+            "show_vendor": false,
+            "show_sku": false,
+            "show_product_rating": true,
+            "show_taxes_included": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "position": "right",
+            "description": "",
+            "is_product": true
+          }
+        },
+        "variant_selector": {
+          "type": "variant_selector",
+          "settings": {
+            "selector_mode": "block",
+            "show_color_swatch": false,
+            "show_color_carousel": false,
+            "size_chart": ""
+          }
+        },
+        "f3c15c26-3dab-4c2f-a5c1-8747bc99e86f": {
+          "type": "product_selector",
+          "settings": {
+            "show_mobile": false,
+            "show_label": true,
+            "show_price_in_button": false,
+            "show_payment_button": false
+          }
+        },
+        "b28c05bb-1a34-439a-9048-4612f8a4d8cc": {
+          "type": "content",
+          "settings": {
+            "title": "Ingredients",
+            "content": "",
+            "page": "{{ product.metafields.my_fields.tab_1.value }}"
+          }
+        },
+        "6cba11b5-a616-41a0-b073-68ba88e609e4": {
+          "type": "content",
+          "settings": {
+            "title": "",
+            "content": "",
+            "page": "{{ product.metafields.my_fields.tab_2.value }}"
+          }
+        },
+        "33613f93-9c2b-41c8-9faf-6b9a7a2ab8c3": {
+          "type": "content",
+          "settings": {
+            "title": "",
+            "content": "",
+            "page": "{{ product.metafields.my_fields.tab_3.value }}"
+          }
+        },
+        "02c15802-a0b4-46dc-b5a5-421e7f3e74ff": {
+          "type": "content",
+          "settings": {
+            "title": "",
+            "content": "",
+            "page": "{{ product.metafields.my_fields.tab_4.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "product_meta",
+        "description",
+        "variant_selector",
+        "f3c15c26-3dab-4c2f-a5c1-8747bc99e86f",
+        "b28c05bb-1a34-439a-9048-4612f8a4d8cc",
+        "6cba11b5-a616-41a0-b073-68ba88e609e4",
+        "33613f93-9c2b-41c8-9faf-6b9a7a2ab8c3",
+        "02c15802-a0b4-46dc-b5a5-421e7f3e74ff"
+      ],
+      "settings": {
+        "image_size": "large",
+        "stack_images": false,
+        "show_thumbnails": false,
+        "enable_image_zoom": true,
+        "enable_video_looping": false
+      }
+    },
+    "164788707776860425": {
+      "type": "text-with-image",
+      "settings": {
+        "subheading": "the switch to free-from can be easy",
+        "title": "free-from deodorants in 3 different strengths",
+        "image": "shopify:\/\/shop_images\/JordieH_NalaCare_NaturalDeodorant_FreeFromDeodorant.jpg",
+        "image_position": "left",
+        "content": "",
+        "link_text": "shop deodorants",
+        "link_url": "shopify:\/\/collections\/free-from-deodorant",
+        "background": "#eaeaea",
+        "text_color": "#555759"
+      }
+    },
+    "1647886368ba8d8323": {
+      "type": "custom-liquid",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "liquid": "<!--Start Stamped.io Auto Installation--><div id=\"stamped-main-widget\" class=\"stamped-main-widget\" data-widget-style=\"standard\" data-product-id=\"{{ product.id }}\" data-name=\"{{ product.title | escape }}\" data-url=\"{{ shop.url }}{{ product.url }}\" data-image-url=\"{{ product.featured_image | product_img_url: \"large\" |replace: '?', '%3F' | replace: '&','%26'}}\" data-description=\"{{ product.description | escape }}\" data-product-sku=\"{{product.handle}}\" data-product-type=\"{{product.type}}\" data-offset=\"100\"><\/div><!--End Stamped.io Auto Installation-->"
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "You may also like",
+        "show_product_info": true,
+        "show_vendor": false,
+        "show_color_swatch": false
+      }
+    },
+    "recently-viewed-products": {
+      "type": "recently-viewed-products",
+      "settings": {
+        "title": "Recently viewed",
+        "show_product_info": true,
+        "show_vendor": false,
+        "show_color_swatch": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "164788707776860425",
+    "1647886368ba8d8323",
+    "product-recommendations",
+    "recently-viewed-products"
+  ]
+}

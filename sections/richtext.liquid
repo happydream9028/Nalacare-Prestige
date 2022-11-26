@@ -1,0 +1,132 @@
+<section id="section-{{ section.id }}" class="Section RichText">
+  <div class="Container">
+    <div class="PageContent PageContent--{{ section.settings.section_width }} Text--align{{ section.settings.text_align }}">
+      {%- if section.settings.subheading != blank or section.settings.title != blank or section.settings.content != blank -%}
+        <header class="SectionHeader">
+          {%- if section.settings.subheading != blank -%}
+          <h3 class="SectionHeader__SubHeading Heading u-h6">{{ section.settings.subheading | escape }}</h3>
+          {%- endif -%}
+
+          {%- if section.settings.title != blank -%}
+          <h2 class="SectionHeader__Heading Heading u-h1">{{ section.settings.title }}</h2>
+          {%- endif -%}
+
+          {%- if section.settings.content != blank or section.settings.html != blank -%}
+          <div class="Rte">
+            {{ section.settings.content }}
+            {{ section.settings.html }}
+          </div>
+          {%- endif -%}
+
+          {%- if section.settings.link_text != blank -%}
+          <a href="{{ section.settings.link_url }}" class="Link Link--underline">{{ section.settings.link_text | escape }}</a>
+          {%- endif -%}
+        </header>
+      {%- endif -%}
+    </div>
+  </div>
+</section>
+
+<style>
+  #section-{{ section.id }}.Section {
+    color: {{ section.settings.text_color }};
+    background: {{ section.settings.background }};
+  }
+  #section-{{ section.id }}.Section h2,
+  #section-{{ section.id }}.Section h3{
+    color: {{ section.settings.text_color }};
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Rich text",
+  "class": "shopify-section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": "Sub-heading",
+      "default": "Sub-heading"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Title"
+    },
+    {
+      "type": "richtext",
+      "id": "content",
+      "label": "Text",
+      "default": "<p>Add your own custom content to give more information about your store, availability details...</p>"
+    },
+    {
+      "type": "html",
+      "id": "html",
+      "label": "html"
+    },
+    {
+      "type": "text",
+      "id": "link_text",
+      "label": "Link text"
+    },
+    {
+      "type": "url",
+      "id": "link_url",
+      "label": "Link URL"
+    },
+    {
+      "type": "select",
+      "id": "section_width",
+      "label": "Section width",
+      "options": [
+        {
+          "value": "narrow",
+          "label": "Narrow"
+        },
+        {
+          "value": "wide",
+          "label": "Wide"
+        }
+      ],
+      "default": "wide"
+    },
+	{
+      "type": "select",
+      "id": "text_align",
+      "label": "Align text",
+      "options": [
+        {
+          "value": "Left",
+          "label": "Left"
+        },
+        {
+          "value": "Center",
+          "label": "Center"
+        }
+      ],
+      "default": "Left"
+    },
+    {
+      "type": "color",
+      "id": "background",
+      "label": "Background",
+      "default": "#eaeaea"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text",
+      "default": "#1c1b1b"
+    }
+  ],
+  "presets": [
+    {
+      "category": "Text",
+      "name": "Rich text",
+      "settings": {}
+    }
+  ]
+}
+{% endschema %}

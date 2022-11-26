@@ -1,0 +1,328 @@
+{
+  "sections": {
+    "1649810479e4d38e76": {
+      "type": "slideshow",
+      "blocks": {
+        "16498104792d6f888a-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ingredients-banner_d0145559-f1c4-4d65-a198-f3e5ac9a389f.jpg",
+            "apply_overlay": false,
+            "content_position": "middleCenter",
+            "subheading": "",
+            "title": "Ingredients",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16498104792d6f888a-1"
+      ],
+      "settings": {
+        "show_fullscreen": false,
+        "show_arrow": false,
+        "autoplay": false,
+        "cycle_speed": 5,
+        "text_color": "#555759",
+        "button_color": "#363636",
+        "button_background": "#ffffff"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_large": false,
+        "show_title": false
+      }
+    },
+    "1649809265b5fd04e7": {
+      "type": "text-columns-with-images",
+      "blocks": {
+        "16498092657b0a5c19-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Charcoal_8f2c2c60-af11-4c45-8c14-34d5ace72eb7.jpg",
+            "subheading": "",
+            "title": "Activated Charcoal",
+            "button_text": "",
+            "button_link": "shopify:\/\/pages\/activated-charcoal"
+          }
+        },
+        "16498092657b0a5c19-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/manuka_02f930cc-7472-44c0-97ea-ece918c7b965.jpg",
+            "subheading": "",
+            "title": "Australian Manuka Branch\/Leaf Oil",
+            "button_text": "",
+            "button_link": "shopify:\/\/pages\/australian-manuka-branch-leaf-oil"
+          }
+        },
+        "16498092657b0a5c19-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Soda_be046d56-8549-4dd1-8962-74862f7cbdac.jpg",
+            "subheading": "",
+            "title": "Baking Soda",
+            "button_text": "",
+            "button_link": "shopify:\/\/pages\/baking-soda"
+          }
+        },
+        "e5aeee70-dabc-4fa0-ab25-0b71144485da": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lema-oil-1.webp",
+            "subheading": "",
+            "title": "LEMA® Oil",
+            "button_text": "",
+            "button_link": "shopify:\/\/pages\/lema-oil"
+          }
+        },
+        "836e3692-c5a9-47c1-99c7-095679dd355e": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Arrowroot_32f58832-3cff-448f-89d8-c56be17d1a6a.jpg",
+            "subheading": "",
+            "title": "Organic Arrowroot Powder",
+            "button_text": "",
+            "button_link": "shopify:\/\/pages\/organic-arrowroot-powder"
+          }
+        },
+        "86746f01-57b9-4b6d-bb7c-7f868fc12a88": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Beeswax_24008e34-a91d-4dbe-8159-9e50d1936770.jpg",
+            "subheading": "",
+            "title": "Organic Beeswax",
+            "button_text": "",
+            "button_link": "shopify:\/\/pages\/organic-beeswax"
+          }
+        },
+        "c66288df-7722-4a7c-a482-c258914718e9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bergamot_b13eddc8-c5eb-4a5e-a9ac-54934eb442fe.jpg",
+            "subheading": "",
+            "title": "Organic Bergamot Essential Oil",
+            "button_text": "",
+            "button_link": "shopify:\/\/pages\/organic-bergamot-essential-oil"
+          }
+        },
+        "1c77421a-6077-4c57-8a4b-20e03c185cd2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cammelia.webp",
+            "subheading": "",
+            "title": "Organic Camellia Seed Oil",
+            "button_text": "",
+            "button_link": "shopify:\/\/pages\/organic-camellia-seed-oil"
+          }
+        },
+        "6104b1df-c0b0-4d1f-a2e5-c760fc50015d": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Carnauba_5a935fc4-f063-4f0f-88e4-66c8b36caed6.jpg",
+            "subheading": "",
+            "title": "Organic Carnauba Wax",
+            "button_text": "",
+            "button_link": "shopify:\/\/pages\/organic-carnauba-wax"
+          }
+        },
+        "325cad3b-e46a-4272-9c98-d827bb24dae5": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cedarwood_7346e55b-974b-4ccf-9ff1-6abb1f35b3a3.jpg",
+            "subheading": "",
+            "title": "Organic Cedarwood Essential Oil",
+            "button_text": "",
+            "button_link": "shopify:\/\/pages\/organic-cedarwood-essential-oil"
+          }
+        },
+        "9ba14242-d61a-49e2-b2d9-ad7548a8f92b": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cocoa.webp",
+            "subheading": "",
+            "title": "Organic Cocoa Butter",
+            "button_text": "",
+            "button_link": "shopify:\/\/pages\/organic-cocoa-butter"
+          }
+        },
+        "79148bea-8bfc-433b-9482-5d9dbebf1769": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Geranium_a78cc40e-98ce-4195-94dd-e56c8bb5ca1f.jpg",
+            "subheading": "",
+            "title": "Organic Geranium Essential Oil",
+            "button_text": "",
+            "button_link": "shopify:\/\/pages\/organic-geranium-essential-oil"
+          }
+        },
+        "20975fb6-a6d0-4bc1-913f-d31d18b2dc07": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Nala-Care-natural-deodorants-ingredients-ho-wood-essential-oil-2_8dd46cb6-9a9f-4e21-ac44-389a3f7b653d.jpg",
+            "subheading": "",
+            "title": "Organic Ho Wood Essential Oil",
+            "button_text": "",
+            "button_link": "shopify:\/\/pages\/organic-ho-wood-essential-oil"
+          }
+        },
+        "f3e7f79d-c9b9-4d65-bf6c-b0d483d019e5": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Lavender_a8e048bb-6bfd-47aa-84c2-f85da036c896.jpg",
+            "subheading": "",
+            "title": "Organic Lavender Essential Oil",
+            "button_text": "",
+            "button_link": "shopify:\/\/pages\/organic-lavender-essential-oil"
+          }
+        },
+        "e1b85a40-9392-4614-8aef-3fc814b6b6bf": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Myrtle_298f0b95-f932-45df-b18f-8a3bcc360695.jpg",
+            "subheading": "",
+            "title": "Organic Lemon Myrtle Extract",
+            "button_text": "",
+            "button_link": "shopify:\/\/pages\/organic-lemon-myrtle-extract"
+          }
+        },
+        "0ccd8390-ba45-4ad9-b5b5-1c08213b2c77": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Patchouli_ed53aa98-8e7f-4d6c-9c13-9742524916c0.jpg",
+            "subheading": "",
+            "title": "Organic Patchouli Essential Oil",
+            "button_text": "",
+            "button_link": "shopify:\/\/pages\/organic-patchouli-essential-oil"
+          }
+        },
+        "71f3c6ec-2203-408c-87da-e9d27f9fbae1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Peppermint_e8e4c551-c7bd-401e-81a2-9606d342ec10.jpg",
+            "subheading": "",
+            "title": "Organic Peppermint Oils",
+            "button_text": "",
+            "button_link": "shopify:\/\/pages\/organic-peppermint-oils"
+          }
+        },
+        "42a0b4a4-854a-4f2c-beb8-7344213db4d9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Sandalwood_107e9180-44a8-4adb-b7dd-5941f1847227.jpg",
+            "subheading": "",
+            "title": "Organic Sandalwood Essential Oil",
+            "button_text": "",
+            "button_link": "shopify:\/\/pages\/organic-sandalwood-essential-oil"
+          }
+        },
+        "5def0f94-866f-4c2c-9e58-d3d297e68e47": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Tea_tree_3ecda494-347c-44a4-b673-0a99a46d7988.jpg",
+            "subheading": "",
+            "title": "Organic Tea Tree Leaf Oil",
+            "button_text": "",
+            "button_link": "shopify:\/\/pages\/organic-tea-tree-leaf-oil"
+          }
+        },
+        "5d60f2db-0155-475f-9626-5138fbc56d68": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/glycerin-oil.webp",
+            "subheading": "",
+            "title": "Organic Vegetable Glycerin",
+            "button_text": "",
+            "button_link": "shopify:\/\/pages\/organic-vegetable-glycerin"
+          }
+        },
+        "5ad29416-866b-46c3-b77d-883766777137": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Coconut_406be1d9-a85d-47e4-89f9-ee0d442adebd.jpg",
+            "subheading": "",
+            "title": "Organic Virgin Coconut Oil",
+            "button_text": "",
+            "button_link": "shopify:\/\/pages\/organic-virgin-coconut-oil"
+          }
+        },
+        "4312fc3b-c8ce-4448-8071-f279d07fcb7a": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rosemary_5d6feb25-6a48-457d-9bbd-dfed06154c00.jpg",
+            "subheading": "",
+            "title": "Rosemary CO2 Extract",
+            "button_text": "",
+            "button_link": "shopify:\/\/pages\/rosemary-co2-extract"
+          }
+        },
+        "296b0f82-0a4e-422e-9d74-4342c51f003c": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/e-vitamin.webp",
+            "subheading": "",
+            "title": "Vitamin E",
+            "button_text": "",
+            "button_link": "shopify:\/\/pages\/vitamin-e"
+          }
+        },
+        "b8302cd5-8190-4a6a-90d5-50703d6513a2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ylang_a4b26c21-2c71-457c-b0b4-748e1ff09b51.jpg",
+            "subheading": "",
+            "title": "Ylang Ylang Essential Oil",
+            "button_text": "",
+            "button_link": "shopify:\/\/pages\/ylang-ylang-essential-oil"
+          }
+        }
+      },
+      "block_order": [
+        "16498092657b0a5c19-0",
+        "16498092657b0a5c19-1",
+        "16498092657b0a5c19-2",
+        "e5aeee70-dabc-4fa0-ab25-0b71144485da",
+        "836e3692-c5a9-47c1-99c7-095679dd355e",
+        "86746f01-57b9-4b6d-bb7c-7f868fc12a88",
+        "c66288df-7722-4a7c-a482-c258914718e9",
+        "1c77421a-6077-4c57-8a4b-20e03c185cd2",
+        "6104b1df-c0b0-4d1f-a2e5-c760fc50015d",
+        "325cad3b-e46a-4272-9c98-d827bb24dae5",
+        "9ba14242-d61a-49e2-b2d9-ad7548a8f92b",
+        "79148bea-8bfc-433b-9482-5d9dbebf1769",
+        "20975fb6-a6d0-4bc1-913f-d31d18b2dc07",
+        "f3e7f79d-c9b9-4d65-bf6c-b0d483d019e5",
+        "e1b85a40-9392-4614-8aef-3fc814b6b6bf",
+        "0ccd8390-ba45-4ad9-b5b5-1c08213b2c77",
+        "71f3c6ec-2203-408c-87da-e9d27f9fbae1",
+        "42a0b4a4-854a-4f2c-beb8-7344213db4d9",
+        "5def0f94-866f-4c2c-9e58-d3d297e68e47",
+        "5d60f2db-0155-475f-9626-5138fbc56d68",
+        "5ad29416-866b-46c3-b77d-883766777137",
+        "4312fc3b-c8ce-4448-8071-f279d07fcb7a",
+        "296b0f82-0a4e-422e-9d74-4342c51f003c",
+        "b8302cd5-8190-4a6a-90d5-50703d6513a2"
+      ],
+      "settings": {
+        "image_size": "small",
+        "add_spacing": true,
+        "expand_collection": false,
+        "grid_mobile_items_per_row": "2",
+        "grid_desktop_items_per_row": 4,
+        "text_align": "Text--alignCenter",
+        "text_color": "#555759",
+        "button_color": "#363636"
+      }
+    }
+  },
+  "order": [
+    "1649810479e4d38e76",
+    "main",
+    "1649809265b5fd04e7"
+  ]
+}

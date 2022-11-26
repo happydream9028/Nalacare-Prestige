@@ -1,0 +1,159 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "product_meta": {
+          "type": "product_meta",
+          "settings": {
+            "show_vendor": false,
+            "show_sku": false,
+            "show_product_rating": true,
+            "show_taxes_included": false
+          }
+        },
+        "variant_selector": {
+          "type": "variant_selector",
+          "settings": {
+            "selector_mode": "block",
+            "show_color_swatch": false,
+            "show_color_carousel": false,
+            "size_chart": ""
+          }
+        },
+        "803a183d-5720-4427-a46a-79776e75d4e2": {
+          "type": "product_selector",
+          "settings": {
+            "show_mobile": false,
+            "show_label": false,
+            "show_price_in_button": false,
+            "show_payment_button": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "position": "right",
+            "description": "",
+            "is_product": true
+          }
+        },
+        "b28c05bb-1a34-439a-9048-4612f8a4d8cc": {
+          "type": "content",
+          "settings": {
+            "title": "",
+            "content": "",
+            "page": "unscented-deodorant"
+          }
+        },
+        "8d4269cb-dcea-4edd-bcfd-2fbb1f49ef59": {
+          "type": "content",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "content": "",
+            "page": "citrus-deodorant"
+          }
+        },
+        "60645fc1-fa66-4f5a-958f-799f146bc226": {
+          "type": "content",
+          "settings": {
+            "title": "",
+            "content": "",
+            "page": "eucalyptus-deodorant"
+          }
+        },
+        "9cedbfaf-f10b-4db3-9a72-b7d52dae3c35": {
+          "type": "content",
+          "settings": {
+            "title": "",
+            "content": "",
+            "page": "woodsy-deodorant"
+          }
+        },
+        "45bb0964-eccd-4bf5-b6d0-ce45ebad30d0": {
+          "type": "content",
+          "settings": {
+            "title": "Cedarwood & Palo Santo",
+            "content": "",
+            "page": "cedarwood-palo-santo-deodorant"
+          }
+        },
+        "e03169f8-b6cf-46a2-82c9-32626169c536": {
+          "type": "content",
+          "settings": {
+            "title": "",
+            "content": "",
+            "page": "how-to-use"
+          }
+        }
+      },
+      "block_order": [
+        "product_meta",
+        "variant_selector",
+        "803a183d-5720-4427-a46a-79776e75d4e2",
+        "description",
+        "b28c05bb-1a34-439a-9048-4612f8a4d8cc",
+        "8d4269cb-dcea-4edd-bcfd-2fbb1f49ef59",
+        "60645fc1-fa66-4f5a-958f-799f146bc226",
+        "9cedbfaf-f10b-4db3-9a72-b7d52dae3c35",
+        "45bb0964-eccd-4bf5-b6d0-ce45ebad30d0",
+        "e03169f8-b6cf-46a2-82c9-32626169c536"
+      ],
+      "settings": {
+        "image_size": "large",
+        "stack_images": false,
+        "show_thumbnails": false,
+        "enable_image_zoom": true,
+        "enable_video_looping": false
+      }
+    },
+    "164788707776860425": {
+      "type": "text-with-image",
+      "settings": {
+        "subheading": "the switch to free-from can be easy",
+        "title": "free-from deodorants in 3 different strengths",
+        "image": "shopify:\/\/shop_images\/Nala_Care_Natural_Deodorant_Free_From_Deodorant.webp",
+        "image_position": "left",
+        "content": "",
+        "link_text": "shop all deodorants",
+        "link_url": "shopify:\/\/collections\/free-from-deodorant",
+        "background": "#eaeaea",
+        "text_color": "#555759"
+      }
+    },
+    "1647886368ba8d8323": {
+      "type": "custom-liquid",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "liquid": "<!--Start Stamped.io Auto Installation--><div id=\"stamped-main-widget\" class=\"stamped-main-widget\" data-widget-style=\"standard\" data-product-id=\"{{ product.id }}\" data-name=\"{{ product.title | escape }}\" data-url=\"{{ shop.url }}{{ product.url }}\" data-image-url=\"{{ product.featured_image | product_img_url: \"large\" |replace: '?', '%3F' | replace: '&','%26'}}\" data-description=\"{{ product.description | escape }}\" data-product-sku=\"{{product.handle}}\" data-product-type=\"{{product.type}}\" data-offset=\"100\"><\/div><!--End Stamped.io Auto Installation-->"
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "You may also like",
+        "show_product_info": true,
+        "show_vendor": false,
+        "show_color_swatch": false
+      }
+    },
+    "recently-viewed-products": {
+      "type": "recently-viewed-products",
+      "settings": {
+        "title": "Recently viewed",
+        "show_product_info": true,
+        "show_vendor": false,
+        "show_color_swatch": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "164788707776860425",
+    "1647886368ba8d8323",
+    "product-recommendations",
+    "recently-viewed-products"
+  ]
+}

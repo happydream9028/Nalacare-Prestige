@@ -1,0 +1,33 @@
+<div class="Container">
+  {% if section.settings.show_title %}
+  <header class="PageHeader">
+    <div class="SectionHeader SectionHeader--center">
+      <h1 class="SectionHeader__Heading Heading u-h1">{{ page.title }}</h1>
+    </div>
+  </header>
+  {% endif %}
+
+  <div class="PageContent {% unless section.settings.show_large %}PageContent--narrow{% endunless %} Rte">
+    {{ page.content }}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Page",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "show_large",
+      "label": "Large width",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "show_title",
+      "label": "Show title",
+      "default": true
+    }
+  ]
+}
+{% endschema %}

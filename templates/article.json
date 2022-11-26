@@ -1,0 +1,30 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "settings": {
+        "show_article_image": true,
+        "show_date": false,
+        "show_category": true,
+        "show_author": false,
+        "show_share_buttons": true,
+        "show_prev_next": true
+      }
+    },
+    "shop-now": {
+      "type": "shop-now",
+      "settings": {
+        "title": "shop",
+        "collection": "all-products",
+        "grid_items_count": 12,
+        "show_product_info": true,
+        "show_vendor": false,
+        "show_color_swatch": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "shop-now"
+  ]
+}

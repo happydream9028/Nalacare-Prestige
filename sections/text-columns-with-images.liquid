@@ -1,0 +1,195 @@
+{%- capture flickity_options -%}
+{
+  "prevNextButtons": false,
+  "pageDots": {% if section.blocks.size > 1 %}true{% else %}false{% endif %},
+  "setGallerySize": true,
+  "wrapAround": true,
+  "watchCSS": true,
+  "dragThreshold": 8
+}
+{%- endcapture -%}
+
+<section id="section-{{ section.id }}" data-section-id="{{ section.id }}" data-section-type="collection-list">
+  {%- capture collection_items -%}
+    {%- for block in section.blocks -%}
+      {%- render 'text-column-item', block: block, apply_overlay: block.settings.apply_overlay -%}
+    {%- endfor -%}
+  {%- endcapture -%}
+
+  <div class="Container">
+  <div class="ProductList ProductList--grid ProductList--removeMargin Grid {% if section.settings.add_spacing %}CollectionList--spaced{% endif %}" data-mobile-count="{{ section.settings.grid_mobile_items_per_row }}" data-desktop-count="{{ section.settings.grid_desktop_items_per_row }}">
+    {{ collection_items }}
+  </div>
+  </div>
+  
+</section>
+
+<style>
+  #section-{{ section.id }} .CollectionItem .Heading,
+  #section-{{ section.id }} .flickity-page-dots {
+    color: {{ section.settings.text_color }};
+  }
+
+  #section-{{ section.id }} .CollectionItem__Link {
+    color: {{ section.settings.button_color }};
+    border-color: {{ section.settings.text_color }};
+  }
+
+  #section-{{ section.id }} .CollectionItem__Link::before {
+    background-color: {{ section.settings.text_color }};
+  }
+
+  {%- if settings.show_button_transition -%}
+    @media (-moz-touch-enabled: 0), (hover: hover) {
+      #section-{{ section.id }} .CollectionItem__Link:hover {
+        color: {{ section.settings.text_color }};
+      }
+    }
+  {%- endif -%}
+</style>
+
+{% schema %}
+{
+  "name": "Text columns with images",
+  "max_blocks": 30,
+  "settings": [
+    {
+      "type": "select",
+      "id": "image_size",
+      "label": "Image size",
+      "options": [
+        {
+          "value": "small",
+          "label": "Small"
+        },
+        {
+          "value": "normal",
+          "label": "Normal"
+        },
+        {
+          "value": "large",
+          "label": "Large"
+        }
+      ],
+      "default": "normal"
+    },
+    {
+      "type": "checkbox",
+      "id": "add_spacing",
+      "label": "Add spacing",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "expand_collection",
+      "label": "Expand collections to fill row",
+      "default": false
+    },
+    {
+      "type": "select",
+      "id": "grid_mobile_items_per_row",
+      "label": "Columns per row (mobile)",
+      "options": [
+        {
+          "value": "1",
+          "label": "1"
+        },
+        {
+          "value": "2",
+          "label": "2"
+        }
+      ],
+      "default": "2"
+    },
+    {
+      "type": "range",
+      "min": 2,
+      "max": 4,
+      "id": "grid_desktop_items_per_row",
+      "label": "Columns per row (desktop)",
+      "default": 4
+    },
+    {
+      "type": "select",
+      "id": "text_align",
+      "label": "Text alignment",
+      "options": [
+        {
+          "value": "",
+          "label": "Left"
+        },
+        {
+          "value": "Text--alignCenter",
+          "label": "Center"
+        }
+      ],
+      "default": ""
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "button_color",
+      "label": "Button text",
+      "default": "#363636"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "column",
+      "name": "Column",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image",
+          "info": "1120 x 1200px .jpg recommended"
+        },
+        {
+          "type": "text",
+          "id": "subheading",
+          "label": "Sub-heading"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading"
+        },
+        {
+          "type": "text",
+          "id": "button_text",
+          "label": "Button text"
+        },
+        {
+          "type": "url",
+          "id": "button_link",
+          "label": "Button link",
+          "info": "If none is set, collection URL is used."
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "category": "Text",
+      "name": "Text columns with images",
+      "settings": {},
+      "blocks": [
+        {
+          "type": "column"
+        },
+        {
+          "type": "column"
+        },
+        {
+          "type": "column"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

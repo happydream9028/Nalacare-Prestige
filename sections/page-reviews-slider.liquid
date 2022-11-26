@@ -1,0 +1,102 @@
+{%- capture flickity_options -%}
+{
+  "prevNextButtons": true,
+  "setGallerySize": true,
+  "adaptiveHeight": false,
+  "wrapAround": true,
+  "dragThreshold": 15,
+  "pauseAutoPlayOnHover": false,
+  "autoPlay": false,
+  "pageDots": {% if section.blocks.size > 1 %}true{% else %}false{% endif %},
+  "percentPosition": true,
+  "groupCells": "80%"
+}
+{%- endcapture -%}
+
+<section id="section-{{ section.id }}" data-section-id="{{ section.id }}" data-section-type="slideshow">
+  
+  <div class="Slideshow reviews-slideshow">
+    <div class="carousel Carousel--insideDots" data-flickity='{{ flickity_options }}'>
+      {%- for block in section.blocks -%}
+      <div class="carousel-cell">
+        <video controls="controls" style="max-width: 600px; height: 600px;">
+          <source src="{{ block.settings.html }}" type="video/mp4" />
+          Your browser does not support our video.
+        </video>
+        <h3>{{ block.settings.title }}</h3>
+      </div>
+      {%- endfor -%}
+    </div>
+  </div>
+
+  <span id="section-{{ section.id }}-end" class="Anchor"></span>
+</section>
+
+<style>
+  .carousel-cell {
+    width: 50%;
+    text-align: center;
+  }
+  .carousel-cell video{
+    display: block;
+    margin: 0 auto 15px;
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Video reviews slider",
+  "class": "shopify-section--slideshow",
+  "max_blocks": 20,
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "autoplay",
+      "label": "Auto rotate between slides",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "cycle_speed",
+      "min": 3,
+      "max": 8,
+      "step": 1,
+      "unit": "sec",
+      "label": "Change slides every",
+      "default": 5
+    },
+    {
+      "type": "color",
+      "id": "dot_color",
+      "label": "Dot Color",
+      "default": "#ffffff"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "image",
+      "name": "Slide",
+      "settings": [
+        {
+          "type": "html",
+          "id": "html",
+          "label": "Video Embed code"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Tell your story"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "category": "Video",
+      "name": "Video slider",
+      "settings": {}
+    }
+  ]
+}
+{% endschema %}
