@@ -11596,6 +11596,6 @@ shopify-payment-terms {
   }
 }
 
-.Article__Wrapper .ProductItem a {
-
+.Article__Wrapper .ProductList--carousel {
+  margin: 0;
 }

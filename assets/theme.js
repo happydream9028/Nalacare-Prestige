@@ -6792,6 +6792,64 @@
       new LoadingBar();
     }
 
+    // Products Shortcode
+var holder = document.querySelector('[data-products]');
+if (holder) {
+  var handle = holder.dataset.products;
+  fetch(`/collections/${handle}/?view=json`)
+  .then(response => response.json())
+  .then((data) => {
+    holder.innerHTML += `
+      <div class="ProductListWrapper">
+        <div class="ProductList ProductList--carousel Carousel" data-flickity-config='
+        {
+          "prevNextButtons": true,
+          "pageDots": false,
+          "wrapAround": false,
+          "contain": true,
+          "cellAlign": "center",
+          "watchCSS": true,
+          "dragThreshold": 8,
+          "groupCells": true,
+          "arrowShape": {"x0": 20, "x1": 60, "y1": 40, "x2": 60, "y2": 35, "x3": 25}
+        }'>
+        </div>
+      </div>
+    `;
+    
+    data.products.forEach((el) => {
+      holder.querySelector('.ProductList').innerHTML += `
+        <div class="Carousel__Cell">
+          <div class="ProductItem">
+            <div class="ProductItem__Wrapper">
+              <a href="${ el.url }" class="ProductItem__ImageWrapper ProductItem__ImageWrapper--withAlternateImage">
+                <div class="AspectRatio AspectRatio--withFallback" style="max-width: 2000px; padding-bottom: 100.0%; --aspect-ratio: 1.0">
+                  <img class="ProductItem__Image ProductItem__Image--alternate Image--lazyLoad Image--fadeIn" data-src="${ el.secondary_image }" data-widths="[200,300,400,600,800,900,1000,1200]" data-sizes="auto">
+                  <img class="ProductItem__Image Image--lazyLoad Image--fadeIn" data-src="${ el.featured_image }" data-widths="[200,300,400,600,800,900,1000,1200]" data-sizes="auto">
+                  <span class="Image__Loader"></span>
+                </div>
+              </a>
+              <div class="ProductItem__Info ProductItem__Info--center">
+                <h2 class="ProductItem__Title Heading">
+                  <a class="s_link" href="${ el.url }">${ el.title }</a>
+                </h2>
+                <div class="ProductItem__Rating Heading Text--subdued u-h7">
+                  <span class=" stamped-product-reviews-badge collection-badge" data-product-sku="${ el.handle }" data-id="${ el.id }" data-product-title="${ el.title }" data-product-type="${ el.type }" style="display:block;"></span>
+                </div>
+                <div class="ProductItem__PriceList ProductItem__PriceList--showOnHover Heading">
+                  <span class="ProductItem__Price Price Text--subdued">${ el.price }</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      `;
+    });
+
+    var tmp = new Carousel(holder.querySelector('.ProductList'));
+  });
+}
+
     var sections = new SectionContainer();
     sections.register('header', HeaderSection);
     sections.register('footer', FooterSection);
